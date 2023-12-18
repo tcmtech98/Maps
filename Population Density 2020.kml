@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <LookAt>
+            <longitude>-179.9999999999996</longitude>
+            <latitude>12.500000000008711</latitude>
+            <altitude>1.5038951198420567E7</altitude>
+            <heading>0.0</heading>
+            <tilt>0.0</tilt>
+            <range>1.215226138643394E7</range>
+            <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <NetworkLink>
+            <name>GPWv4: UN-Adjusted Population Density - 2020</name>
+            <visibility>1</visibility>
+            <open>1</open>
+            <description>Gridded Population of the World, Version 4 (GPWv4): Population Density Adjusted to Match 2015 Revision of UN WPP (United Nations World Population Prospects) Country Totals displays human population estimates represented by number of persons per square kilometer in each grid cell for the year 2020, derived by dividing the United Nations adjusted population count grids by land area grids. See more information at: http://dx.doi.org/10.7927/H4HX19NJ.</description>
+            <LookAt>
+                <longitude>-0.050278413626244856</longitude>
+                <latitude>-12.523930986088416</latitude>
+                <altitude>1382361.3379076307</altitude>
+                <heading>0.0</heading>
+                <tilt>0.0</tilt>
+                <range>1117020.4681905159</range>
+                <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <Url>
+                <href>https://sedac.ciesin.columbia.edu/geoserver/gpw-v4/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application/vnd.google-earth.kml+xml&amp;layers=gpw-v4:gpw-v4-population-density-adjusted-to-2015-unwpp-country-totals_2020&amp;styles=gpw-v4-population-density-adjusted-to-2015-unwpp-country-totals_2020:default&amp;height=2048&amp;width=2048&amp;transparent=false&amp;srs=EPSG:4326&amp;format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:false;KMSCORE:40;MODE:refresh;SUPEROVERLAY:false</href>
+                <refreshInterval>0.0</refreshInterval>
+                <viewRefreshMode>onStop</viewRefreshMode>
+                <viewRefreshTime>1.0</viewRefreshTime>
+                <viewBoundScale>1.0</viewBoundScale>
+            </Url>
+        </NetworkLink>
+    </Document>
+</kml>
